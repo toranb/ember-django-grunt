@@ -1,0 +1,9 @@
+A really basic ember.js application with a django-rest-framework api backend
+
+To run this django application locally
+
+1. pip install -r requirements.txt
+2. python manage.py syncdb --noinput
+3. python manage.py runserver
+4. npm install
+5. grunt local

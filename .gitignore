@@ -1,0 +1,8 @@
+*.pyc
+*.pyo
+
+ember.db
+
+node_modules/*
+
+ember/static/script/lib/*

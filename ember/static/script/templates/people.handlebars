@@ -1,0 +1,10 @@
+{{input placeholder="username" value=username}}
+<button class="submit" {{action addPerson}}>add</button><br /><br />
+
+<div>
+  {{#each person in controller}}
+  id: <span>{{person.id}}</span><br />
+  Username: <span>{{person.username}}</span>
+  <button class="submit" {{action deletePerson person}}>delete</button><br />
+  {{/each}}
+</div>

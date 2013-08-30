@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "grunt-cli": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-hashres": "*",
+    "grunt-ember-template-compiler": "1.0.6"
+  }
+}
